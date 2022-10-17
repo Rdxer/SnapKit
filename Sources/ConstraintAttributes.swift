@@ -28,7 +28,7 @@
 #endif
 
 
-internal struct ConstraintAttributes : OptionSet, ExpressibleByIntegerLiteral {
+public struct ConstraintAttributes : OptionSet, ExpressibleByIntegerLiteral {
     
     typealias IntegerLiteralType = UInt
     
