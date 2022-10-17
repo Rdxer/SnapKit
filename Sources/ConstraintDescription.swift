@@ -30,8 +30,8 @@
 
 public class ConstraintDescription {
     
-    internal let item: LayoutConstraintItem
-    internal var attributes: ConstraintAttributes
+    public let item: LayoutConstraintItem
+    public var attributes: ConstraintAttributes
     internal var relation: ConstraintRelation? = nil
     internal var sourceLocation: (String, UInt)? = nil
     internal var label: String? = nil
